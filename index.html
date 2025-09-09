@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- If you want to change the font, replace the URL with another font link from https://fonts.google.com -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts: this imports the "Poppins" font family -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font icons (for GitHub, LinkedIn, email icons, etc.) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- This connects the custom CSS file -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- This is the page title that shows up in the browser tab -->
+  <title>Rosetta Vang's Portfolio</title>
+
+  <!-- Tab icon png -->
+  <link rel="icon" href="images/memo-emoji.png" type="image/png">  
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <!-- Change to your own name or logo -->
+      <a href="/">Rosetta Vang</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/LunaMoon1507" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="www.linkedin.com/in/kira-luna-nichtawitz" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:kiraluna1@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Everything below <main> is your main content sections (Profile, Skills, Projects, etc.) -->
+
+    <!-- SECTION 1: Profile -->
+    <section id = "profile" class="profile-section">
+      <div class="text">
+        <h2>Hi, I'm Rosetta Vang 👋</h2>
+        <p>I'm a first year at the University of Florda, majoring in Computer Engineering at the College of Engineering. <br> Welcome to my portfolio!</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#projects">
+            <i class="fa-solid fa-diagram-project"></i>
+            <span>Projects</span>
+          </a>
+          
+          <a href="#experience">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Experience</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/css-logo.webp" alt="Kira Nichtawitz graduation headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+
+      <br>
+      <h3>Coding Languages</h3>
+      <div class="cells">
+        <div class="cell">
+          <img src="images/Java-logo.png"/>
+          <span>Java</span>
+        </div>
+        <div class="cell">
+          <img src="images/Python-logo.png"/>
+          <span>Python</span>
+        </div>
+        <div class="cell">
+          <img src="images/C-plus-plus-logo.png"/>
+          <span>C++</span>
+        </div>
+        <div class="cell">
+          <img src="images/html-logo.webp"/>
+          <span>HTML</span>
+        </div>
+      </div>
+      
+      <br>
+      <h3>Foreign Languages</h3>
+        <div class="cells">
+          <div class="cell">
+            <img src="images/English-logo.png"/>
+            <span>English (fluent)</span>
+          </div>
+          <div class="cell">
+            <img src="images/Spanish-icon.png"/>
+            <span>Spanish (proficient)</span>
+          </div>
+        </div>
+
+        <br>
+        <h3>Interpersonal</h3>
+        <div class="cells">
+          <div class="cell">
+            <img src="images/Team-leader.png"/>
+            <span>Team leadership</span>
+          </div>
+          <div class="cell">
+            <img src="images/customer-service-icon.png"/>
+            <span>Customer service</span>
+          </div>
+          <div class="cell">
+            <img src="images/Conflict-resolution.png"/>
+            <span>Conflict resolution</span>
+          </div>
+        </div>
+
+        <br>
+        <h3>Technology</h3>
+        <div class="cells">
+          <div class="cell">
+            <img src="images/web-building.png"/>
+            <span>Website building</span>
+          </div>
+          <div class="cell">
+            <img src="images/3D-printing.png"/>
+            <span>3D printing/modeling</span>
+          </div>
+          <div class="cell">
+            <img src="images/graphic-design.png"/>
+            <span>Graphic design</span>
+          </div>
+          <div class="cell">
+            <img src="images/game-design.png"/>
+            <span>2D and VR Game design</span>
+          </div>
+        </div>
+
+        <br>
+        <h3>Physical</h3>
+        <div class="cells">
+          <div class="cell">
+            <img src="images/sewing-icon.png"/>
+            <span>Sewing</span>
+          </div>
+          <div class="cell">
+            <img src="images/Gymnastics-icon.png"/>
+            <span>Gymnastics</span>
+          </div>
+          <div class="cell">
+            <img src="images/writing-icon.png"/>
+            <span>Writing</span>
+          </div>
+          <div class="cell">
+            <img src="images/acting-icon.png"/>
+            <span>Acting</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3: Projects -->
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+
+      <div class="project-grid">
+        <!-- Project Card 1 -->
+        <article class="project-card">
+          <div class="project-header">
+            <h3>KiraGizmos website building</h3>
+            <div class="tags">
+              <span>HTML/CSS</span><span>VS Code</span><span>GitHub</span><span>NameSilo</span>
+            </div>
+          </div>
+          <p class="project-desc">
+            A website built for the Etsy shop KiraGizmos, which specializes in 3D printing.
+          </p>
+          <div class="actions">
+            <a href="http://kiragizmos.com/" target="_blank" class="btn" aria-label="View demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Site</a>
+            <a href="https://github.com/LunaMoon1507/KiraGizmosSite" target="_blank" class="btn btn-ghost" aria-label="View source on GitHub"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Java CYOA interactive story</h3>
+            <div class="tags">
+              <span>Java</span><span>VS Code</span><span>GitHub</span>
+            </div>
+          </div>
+          <p class="project-desc">
+            A custom text interface Choose-Your-Own-Adventure story written with Java.
+          </p>
+          <div class="actions">
+            <a href="https://codehs.com/sandbox/kiralunamoon/island-adventure-cyoa-app/run" target="_blank" class="btn" aria-label="View demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Try it</a>
+            <a href="https://github.com/LunaMoon1507/Island-Story-CYOA" target="_blank" class="btn btn-ghost" aria-label="View source on GitHub"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </article>
+
+        <!-- Project Card 3 -->
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Conway’s Game of Life program</h3>
+            <div class="tags">
+              <span>C++</span><span>GitHub</span><span>CLion</span>
+            </div>
+          </div>
+          <p class="project-desc">
+            An interactive digital rendition of the famous Conway's Game of Life for a school project.
+          </p>
+          <div class="actions">
+            <!-- Put link to project demo below! -->
+            <a href="#" target="_blank" class="btn" aria-label="View demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> ADD DEMO</a>
+            <a href="https://github.com/COP3504CFall2025/p0-conways-LunaMoon1507" target="_blank" class="btn btn-ghost" aria-label="View source on GitHub"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Experience -->
+    <section id="experience" class="experience-section">
+      <h2>Job Experience</h2>
+
+      <div class="experience-item">
+        <h3>KiraGizmos 3D Printing Owner/Manager</h3>
+        <p><em>June 2020-May 2025</em></p>
+        <p>• Founded, owned, and managed my own 3D printing business on Etsy since the quarantine summer of 8th grade, including producing, packing, and shipping assorted products to customers globally.
+        <br>• Handled customer service, production, packaging, marketing, and finances; also worked with a co-owner/production partner that I contracted to offload some production and increase supply.
+        <br>• Donated several hundred dollars in profits to nonprofit organizations, including The Water Project, Against Malaria Foundation, and Project Scientist.
+        </p>
+      </div>
+
+      <div class="experience-item">
+        <h3>GRIT60 Fitness Weston: Front Desk, Studio Manager, and CTO</h3>
+        <p><em>June 2022-June 2025</em></p>
+        <p>• Worked in part-time employment with GRIT60 Fitness, a local H.I.I.T. gym, operating the front desk as well as covering customer service, IT, management, scheduling, sales, logistics, Spanish/English translation, and more.
+        <br>• Appointed the Chief Technology Officer after taking over IT, managing online systems, and digital phone lines to increase company-wide efficiency.
+        </p>
+      </div>
+
+      <div class="experience-item">
+        <h3>Rockwell Health: Graphic Designer</h3>
+        <p><em>June 2025-Present</em></p>
+        <p>• Creating marketing materials and presentations for Annika Rockwell, a Nutritionist and Dietitian with a private health practice.
+        <br>• Designed an organization system for several hundred-plus slide decks, allowing for easy and seamless navigation. Implemented this solution across Rockwell Health, facilitating nutrition consultations and improving user experiences.
+        </p>
+      </div>
+
+      <div class="experience-item">
+        <h3>Meta, Rec Room, and Techsmith: Research and Beta Testing Studies</h3>
+        <p><em>2021-Present</em></p>
+        <p>• Participating in research and beta testing studies through periodic paid surveys and live web interviews for various video game and technology companies wanting feedback for a virtual or physical experience.
+        <br>• Providing user experience information, suggestions, and feedback for current and beta software, as well as hardware. Aiding in various improvements to user experiences for assorted companies.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 5: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+
+      <div class="group">
+        <div class="text">
+          Feel free to reach out to me with any questions, job/internship opportunities, or just to connect! I'll try to get back to you as soon as I can.
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <header class="main-header"> 
+    <ul class="main-nav">
+      <a href="/">Home</a>
+      <li><a href="https://github.com/LunaMoon1507" target="_blank">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/kira-luna-nichtawitz" target="_blank">Linkedin</a></li>
+      <li><a href="mailto:kiraluna1@gmail.com" target="_blank">Email</a></li>
+    </ul>
+  </header>
+
+</body>
+</html>
