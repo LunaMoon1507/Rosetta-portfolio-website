@@ -1,6 +1,6 @@
 :root {
   --text-color: #000000;
-  --link-color: #3e95ff;
+  --link-color: #74b3ff;
   --background-color: #ffffff;
 }
 
@@ -31,9 +31,9 @@ section {
   margin: 0 auto;
 }
 
-/* HEADER */
+/* FOOTER */
 
-.main-header {
+.main-footer {
   background-color: #e4e4e4;
   padding: 10px 50px;
   display: flex;
@@ -42,18 +42,18 @@ section {
   gap: 10px;
 }
 
-.main-header a {
-  color: black;
+.main-footer a {
+  color: #000000;
   text-decoration: none;
   margin: 0 30px; 
 }
 
-.main-header a:hover {
+.main-footer a:hover {
   text-decoration: underline;
 }
 
 @media (min-width: 1025px) {
-  .main-header {
+  .main-footer {
     flex-direction: row;
     justify-content: space-around; 
     gap: 30px;
@@ -93,9 +93,9 @@ nav .right a {
 }
 
 nav .right a:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: var(--link-color);
   transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  border-radius: 5px;
 }
 
 /* SECTION 1: Profile */
@@ -231,6 +231,7 @@ nav .right a:hover {
 .projects-section {
   padding: 0 50px;
   margin-bottom: 100px;
+  color: var(--text-color);
 }
 
 .projects-section h2 {
@@ -251,8 +252,8 @@ nav .right a:hover {
 }
 
 .project-card {
-  background: #1e1e1e;
-  border: 1.5px solid #ffffff;
+  background: #e4e4e4;
+  border: 1.5px solid #000000;
   border-radius: 10px;
   padding: 18px;
   display: flex;
@@ -286,7 +287,7 @@ nav .right a:hover {
 .tags span {
   font-size: 12px;
   padding: 4px 8px;
-  border: 1px solid #ffffff;
+  border: 1px solid #000000;
   border-radius: 999px;
 }
 
@@ -307,7 +308,7 @@ nav .right a:hover {
   gap: 6px;
   padding: 8px 12px;
   border-radius: 6px;
-  border: 1.5px solid #ffffff;
+  border: 1.5px solid #000000;
   cursor: pointer;
   text-decoration: none;
   font-weight: 600;
@@ -318,7 +319,7 @@ nav .right a:hover {
 .btn-ghost {
   color: var(--text-color);
   background-color: transparent;
-  border: 1.5px solid #ffffff;
+  border: 1.5px solid #000000;
 }
 
 .btn:hover {
@@ -348,6 +349,7 @@ nav .right a:hover {
 .experience-section {
   padding: 0 50px;
   margin-bottom: 100px;
+  color: var(--text-color);
 }
 
 .experience-section h2 {
@@ -357,17 +359,18 @@ nav .right a:hover {
 }
 
 .experience-item {
-  border: 1.5px solid #ffffff;
+  border: 1.5px solid #000000;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
-  background-color: #1e1e1e;
+  background-color: #e4e4e4;
   transition: box-shadow 0.2s ease-in-out;
 }
 
 .experience-item:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  background-color: #2d2d2d;
+  background-color: var(--link-color);
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 .experience-item h3 {
@@ -382,7 +385,6 @@ nav .right a:hover {
 }
 
 .experience-item p em {
-  color: #ffffff;
   font-size: 14px;
 }
 
@@ -424,7 +426,7 @@ nav .right a:hover {
 .contact-section .group form textarea {
   font-family: 'Poppins', sans-serif;
   border: 2px solid var(--text-color);
-  background-color: #1e1e1e;
+  background-color: transparent;
   color: rgb(255, 255, 255);
   padding: 10px;
   margin-bottom: 15px;
@@ -434,16 +436,15 @@ nav .right a:hover {
 
 .contact-section .group form input:focus,
 .contact-section .group form textarea:focus {
-  background-color: #2d2d2d; 
-  color: white;
+  background-color: #e4e4e4; 
+  color: #000000;
 }
 
 .contact-section .group form button {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   color: #1e1e1e;
-  background-color: var(--text-color);
-  border: none;
+  background-color: #e4e4e4;
   height: 50px;
   cursor: pointer;
   transition: .1s;
